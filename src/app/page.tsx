@@ -54,7 +54,7 @@ export default function HomePage() {
               <Image
                 alt="Personne accompagnée en situation de travail"
                 className="w-full h-[600px] object-cover"
-                src="/hero-headshot.png"
+                src="https://res.cloudinary.com/detxwbzq0/image/upload/v1777388155/black_women_worker_headshot_qgbs8s.png"
                 width={1024}
                 height={1024}
                 quality={100}

@@ -19,7 +19,7 @@ export default function Header() {
       <nav className="flex justify-between items-center max-w-7xl mx-auto px-8 h-20">
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/adn-logo.png"
+            src="https://res.cloudinary.com/detxwbzq0/image/upload/v1777388155/adn-logo_vrz0cd.png"
             alt="ADN France Insertion"
             width={40}
             height={40}

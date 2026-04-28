@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2 mb-4">
             <Image
-              src="/adn-logo.png"
+              src="https://res.cloudinary.com/detxwbzq0/image/upload/v1777388155/adn-logo_vrz0cd.png"
               alt="ADN France Insertion"
               width={32}
               height={32}
