@@ -54,9 +54,10 @@ export default function HomePage() {
               <Image
                 alt="Personne accompagnée en situation de travail"
                 className="w-full h-[600px] object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQm3zq76pClFv3mGaJhztFm-PeZLT3AxagzWkDd_v2iNTmOpdUSRsKAENSXgOspqKLIZfdhthLJpPVvJfmdsLfaT5-XOlJgfrYDedeDvOnqiTKHRsKRWzgAna7vyO1L907_Id7rD5RkCenj6SZFW2CPL4vGcJhWZJ2DoZqxknsuj-Epy3GWJLhfiJVml7O_21B9Mn6qK0WXXXY_7ejfQ-FnXQMrMbA_nXHtULcrhQGNiVBEerlz4wXdgRLgGgSfiyt6AVpxo92Ew"
-                width={600}
-                height={600}
+                src="/hero-headshot.png"
+                width={1024}
+                height={1024}
+                quality={100}
                 unoptimized
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
