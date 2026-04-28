@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { fetchJobs } from "@/lib/jobs";
 
+export const dynamic = "force-static";
+
 export async function GET() {
   try {
     const jobs = await fetchJobs();
@@ -10,11 +12,7 @@ export async function GET() {
         "Cache-Control": "s-maxage=300, stale-while-revalidate=600",
       },
     });
-  } catch (error) {
-    console.error("Failed to fetch jobs:", error);
-    return NextResponse.json(
-      { error: "Impossible de charger les offres d'emploi." },
-      { status: 500 }
-    );
+  } catch {
+    return NextResponse.json([]);
   }
 }

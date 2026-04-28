@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { getSheets, ensureSheetTab } from "@/lib/google";
 import { supabase, CV_BUCKET } from "@/lib/supabase";
 
+export const dynamic = "force-static";
+
 const MAX_FILE_SIZE = 5 * 1024 * 1024;
 const SHEET_ID = process.env.GOOGLE_SHEET_ID!;
 

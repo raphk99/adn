@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getSheets, ensureSheetTab } from "@/lib/google";
 
+export const dynamic = "force-static";
+
 const SHEET_ID = process.env.GOOGLE_SHEET_ID!;
 
 async function findCandidateByEmail(email: string): Promise<boolean> {

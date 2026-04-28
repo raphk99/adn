@@ -10,7 +10,7 @@ export const metadata = {
     "Découvrez nos offres d'emploi adaptées à votre parcours. ADN France Insertion vous accompagne vers un retour à l'emploi durable.",
 };
 
-export const revalidate = 300; // ISR: revalidate every 5 minutes
+export const dynamic = "force-static";
 
 function JobPostingJsonLd({ job }: { job: Job }) {
   const jsonLd = {
